@@ -1,5 +1,4 @@
-#include <compare>
-#include <iostream>
+import std;
 
 int main() {
   std::cout << (10 <=> 20 == std::strong_ordering::less) << '\n';
